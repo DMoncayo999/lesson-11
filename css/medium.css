@@ -36,7 +36,7 @@ section#fiveDayForecast {
     display : grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     border: 1px solid #aaa;
-       
+          
 }
 #fiveDayForecast div {
     text-align: center;
@@ -62,30 +62,48 @@ section.news {
     margin: 0 2%;
     float: right;
     border: 1px;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 15px gray;
    
 }
+
+div.townsEvents {
+    border: 5px solid violet;
+    padding: 2%;
+    
+}
 .townsEvents {
+    border: 5px;
     display: block;
+    grid-template-columns: 1fr 1fr;
+    background: rgb(245, 208, 194);
+    
+  }
+
+.townsEvents p{
+    color: red;
+    font-family: Fira Sans;
+}
+.townsEvents img{
+    box-shadow: 0 0 10px gray;
     
 }
 
 .contactInfo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
+
 .contactInfo div {
     text-align: center;
     border:0;
     background-color: rgb(218, 210, 210);
     padding: 2%;
+    
 }
-
 
 .contactInfo div img { 
     display: block;
-    width: 250px; 
+    width: 300px; 
     border:1px;
     box-shadow: 0 0 10px gray;}
 
