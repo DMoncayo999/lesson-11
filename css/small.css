@@ -126,16 +126,13 @@ main picture.heroPhoto img {
 }
 
 .news img {
-    width: 80%;
+    width: 100%;
     margin: 0 10%;
+    margin-left: .5px;
     border: 1px;
     box-shadow: 0 0 10px gray;
 
 }
-.townsEvents {
-    display: none;
-}
-
 
 #contact {
     background-color: rgb(218, 210, 210);
@@ -282,18 +279,56 @@ div.townsInfo {
 }
 
 .trendingNews p {
-    color: blue;
+    color: #af4642;
     font-size: 1em;
     text-align: center;
 }
 .trendingNews img {
-    width :200px; height: 112px;
+    box-shadow: 5px 2px 5px rgb(162, 173, 128);
+    width:200px; height: 150px;
 }
 
 .trendwrap h2 {
     padding-top: 1rem;
     color: #af4642;
 }
+
+div.wireframe p{
+    background-color: rgb(228, 250, 148);
+    width: 80%;
+    padding: 0.5em 0.1em 0.5em 1em;
+    border-radius: 10px;
+}
+
+div.townsEvents {
+    border: 10px solid #af4642;
+    padding: 2%;
+    margin-top: 30px;
+}
+.townsEvents {
+    border: 5px;
+    display: block;
+    background: rgb(228, 250, 148);
+    width: 100%;
+}
+
+.townsEvents h3 { 
+    color: #af4642;
+    text-align: center;    
+}
+
+.townsEvents p{
+    color: black;
+    font-family: Fira Sans;
+    text-align: center;
+    
+}
+.townsEvents img {
+    width: 100%;
+    margin-left: 2px;
+    
+}
+
 
 
 /*----------- FOOTER --------------*/

@@ -50,15 +50,13 @@ section#fiveDayForecast {
     max-width: 100%;
     padding: 25px;
 }
-section.news {
-    display: none;
-}
+
  .news {
      padding: 2%;
  } 
 
 .news img {
-    width: 250px;
+    width: 500px;
     margin: 0 2%;
     float: right;
     border: 1px;
@@ -66,26 +64,20 @@ section.news {
    
 }
 
-div.townsEvents {
-    border: 5px solid violet;
-    padding: 2%;
-    
-}
 .townsEvents {
     border: 5px;
-    display: block;
-    grid-template-columns: 1fr 1fr;
-    background: rgb(245, 208, 194);
-    
-  }
+    background:   rgb(228, 250, 148);
+    width: 100%;
+ }
 
-.townsEvents p{
-    color: red;
-    font-family: Fira Sans;
+div.townsEvents {
+    border: 10px solid #af4642;
+    padding: 2%;
+    margin-top: 30px;
+   
 }
-.townsEvents img{
-    box-shadow: 0 0 10px gray;
-    
+.townsEvents img {
+    display: none;
 }
 
 .contactInfo {
@@ -155,6 +147,12 @@ div.trendingNews {
     text-align: left;
     padding: 1em;
 }
+div.wireframe p{
+    
+    width: 50%;
+    
+}
+
 
 
 /*----------- FOOTER --------------*/

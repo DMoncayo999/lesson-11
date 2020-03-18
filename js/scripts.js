@@ -100,14 +100,10 @@ let eventsPreston = () => {
         if (towns[i].name === "Preston") {
           let card = document.createElement('section');
           let p = document.createElement('p');      
-          p.innerHTML = towns[0].events[0] +  '<br/>' + towns[0].events[1] + '<br/>' 
+          p.innerHTML = towns[0].events[0] +  '<br/><br/>' + towns[0].events[1] + '<br/><br/>' 
           + towns[0].events[2];
           card.appendChild(p);                                             
-          let image = document.createElement('img');   
-          image.setAttribute('src', 'images/' + towns[i].photo); 
-          image.setAttribute('alt', towns[i].name); 
-          card.appendChild(image);
-
+         
           document.querySelector('.townsEvents').appendChild(card);
       
         }
@@ -132,14 +128,10 @@ let eventsFishHaven = () => {
         if (towns[i].name === "Fish Haven") {
           let card = document.createElement('section');
           let p = document.createElement('p');      
-          p.innerHTML = towns[2].events[0] +  '<br/>' + towns[2].events[1] + '<br/>' 
-          + towns[2].events[2] + '<br/>' + towns[2].events[3];
+          p.innerHTML = towns[2].events[0] +  '<br/><br/>' + towns[2].events[1] + '<br/><br/>' 
+          + towns[2].events[2] + '<br/><br/>' + towns[2].events[3];
           card.appendChild(p);                                             
-          let image = document.createElement('img');   
-          image.setAttribute('src', 'images/' + towns[i].photo); 
-          image.setAttribute('alt', towns[i].name); 
-          card.appendChild(image);
-
+          
           document.querySelector('.townsEvents').appendChild(card);
       
         }
@@ -157,22 +149,17 @@ let eventsSodaSp = () => {
       return response.json();
     })
     .then( function (jsonObject) {
-    // console.log(jsonObject);  
-    
+        
   const towns = jsonObject['towns'];
       
       for (let i = 0; i < towns.length; i++ ) {
         if (towns[i].name === "Soda Springs") {
           let card = document.createElement('section');
           let p = document.createElement('p');      
-          p.innerHTML = towns[5].events[0] +  '<br/>' + towns[5].events[1] + '<br/>' 
+          p.innerHTML = towns[5].events[0] +  '<br/><br/>' + towns[5].events[1] + '<br/><br/>' 
           + towns[5].events[2];
           card.appendChild(p);                                             
-          let image = document.createElement('img');   
-          image.setAttribute('src', 'images/' + towns[i].photo); 
-          image.setAttribute('alt', towns[i].name); 
-          card.appendChild(image);
-
+          
           document.querySelector('.townsEvents').appendChild(card);
       
         }
