@@ -127,7 +127,6 @@ main picture.heroPhoto img {
 
 .news img {
     width: 100%;
-    margin: 0 10%;
     margin-left: .5px;
     border: 1px;
     box-shadow: 0 0 10px gray;
@@ -166,6 +165,7 @@ main picture.heroPhoto img {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
+    
 }
 
 figure img {
@@ -179,7 +179,8 @@ figure img[data-src] {
 }
 
 figcaption {
-    display: none;
+    display: block;
+   
 }
 
 /*----------- FORM --------------*/
@@ -233,7 +234,7 @@ input#rating{
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-image: linear-gradient(to bottom right, orange, #9c2c13);
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -241,7 +242,10 @@ form input.submitBtn {
     width: 96%;
     max-width: 20rem;
 }
-
+.submitBtn:hover {
+    box-shadow: -12px -12px 12px 0 rgba(255,255,255,1),
+    12px 12px 12px 0 rgba(0, 0, 0, 0.3);
+}
 form label.top input:required {
     border-left: red solid 6px;
 }
