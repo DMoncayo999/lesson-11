@@ -82,7 +82,7 @@ div.townsEvents {
 
 .contactInfo {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .contactInfo div {
@@ -95,10 +95,15 @@ div.townsEvents {
 
 .contactInfo div img { 
     display: block;
-    width: 300px; 
     border:1px;
-    box-shadow: 0 0 10px gray;}
+    box-shadow: 0 0 10px gray;
 
+}
+
+.mysocial img {
+    border-radius: 50px;
+            
+}
 
 /*---MAIN Gallery.html----*/
 

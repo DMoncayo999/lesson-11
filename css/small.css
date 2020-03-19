@@ -145,13 +145,19 @@ main picture.heroPhoto img {
 
 .contactInfo div {
     text-align: center;
-    border:0;
     padding: 2%;
 }
 
 
-.contactInfo div img {
-    display: none;
+.mysocial {
+    display: flex;
+    justify-content: center;
+    
+}
+.mysocial img {
+    max-width: 50px;
+    padding: 5px;
+       
 }
 
 
