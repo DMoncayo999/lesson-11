@@ -234,7 +234,7 @@ input#rating{
 
 form input.submitBtn {
     border: none;
-    background-image: linear-gradient(to bottom right, orange, #9c2c13);
+    background-image: linear-gradient(to bottom right, yellow, #9c2c13);
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;

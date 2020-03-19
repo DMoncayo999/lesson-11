@@ -80,6 +80,7 @@ const updateWindChill = ( temp, windSpeed ) => {
                             let iconPath = "https://openweathermap.org/img/w/" + iconcode + ".png";
                             let theicon = document.createElement ('img');
                             theicon.src = iconPath;
+                            theicon.alt = "weather icon";
 
                             let theDay = document.createElement ("div");
                             theDay.appendChild(theDayName);
