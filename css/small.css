@@ -114,6 +114,7 @@ main picture.heroPhoto img {
 .weathersummary h3 {color: green; text-align: center;}
 .weathersummary p { color: green; font-size:1rem; font-weight: bold; text-align: center;}
 .weathersummary span {color: red; font-size: 1rem;}
+.weathersummary #description {text-transform: capitalize; }
 
 #fiveDayForecast {display: none;}
 
