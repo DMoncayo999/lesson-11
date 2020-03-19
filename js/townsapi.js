@@ -70,7 +70,7 @@ const updateWindChill = ( temp, windSpeed ) => {
                             forecastDayNumber += 1;
                             if (forecastDayNumber === 7){forecastDayNumber = 0;}
                             
-                            let theDayName = document.createElement("h5");
+                            let theDayName = document.createElement("h4");
                             theDayName.textContent = weekday[forecastDayNumber];
 
                             let theTemp = document.createElement("p");

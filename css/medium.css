@@ -43,7 +43,7 @@ section#fiveDayForecast {
     border: 1px solid #aaa;
 }
 
-#fiveDayForecast div h5 {
+#fiveDayForecast div h4 {
     background-color:#af4642;
     margin: 0;
     color: white;
