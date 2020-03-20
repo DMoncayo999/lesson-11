@@ -51,6 +51,12 @@ section#fiveDayForecast {
     padding: 25px;
 }
 
+#fiveDayForecast img {
+    width: 100px;
+}
+
+
+
  .news {
      padding: 2%;
  } 
